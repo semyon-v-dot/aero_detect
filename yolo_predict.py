@@ -1,10 +1,11 @@
 from ultralytics import YOLO
 from PIL import Image
-import cv2
 
 model = YOLO("aero1.pt")
+
 # accepts all formats - image/dir/Path/URL/video/PIL/ndarray. 0 for webcam
 # results = model.predict(source="0")
+
 results = model.predict(source="E:\\repos\\aero_detect\\datasets\\aero\\images\\test", show=True) # Display preds. Accepts all YOLO predict arguments
 
 # # from PIL
