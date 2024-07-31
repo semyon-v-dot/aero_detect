@@ -4,6 +4,7 @@
 *.txt
 *.pt
 *.mp4
+*.csv
 datasets/
 runs/
 
