@@ -1,4 +1,6 @@
 *.png
+*.bmp
+*.jpeg
 *.txt
 *.pt
 *.mp4
