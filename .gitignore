@@ -1,7 +1,7 @@
 *.png
 *.bmp
 *.jpeg
-*.txt
+frame*.txt
 *.pt
 *.mp4
 *.csv
